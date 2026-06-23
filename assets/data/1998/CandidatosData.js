@@ -25,10 +25,34 @@ const img = (path) => {
 // 1. LEYENDA DE COLORES
 // ============================================================
 
-export const dessertsData = [];
+export const dessertsData = [
+  {
+    porcentaje: "Nivel Bajo",
+    p1: "#FFB3B3", // Rojo muy claro
+  },
+  {
+    porcentaje: "Nivel Medio",
+    p1: "#FF4D4D", // Rojo de intensidad media
+  },
+  {
+    porcentaje: "Nivel Alto",
+    p1: "#CC0000", // Rojo oscuro (Color principal del MPD)
+  },
+];
+
 
 // ============================================================
 // 2. DICCIONARIO DE CANDIDATOS
 // ============================================================
 
-export const candidatoData = [];
+export const candidatoData = [
+  {
+    partido: 1,
+    nombre: "MARIA EUGENIA LIMA",
+    url: img("imagenes_presidentes/1998/MaríaEugeniaLima_1998.png"),
+    logo: img("logos_partidos_politicos/1998/MovimientoPopularDemocrático_1998.png"),
+    color: "#CC0000",
+    nombrePartido: "COMPLETAR", // este candidato pertenece al Movimiento Popular Democrático (MPD)
+    json: "COMPLETAR",
+  }
+];
