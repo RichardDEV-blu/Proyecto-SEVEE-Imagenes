@@ -103,9 +103,9 @@ export const candidatoData = [
   {
     partido: 5,
     nombre: "YAKU PEREZ",
-    url: img("imagenes_presidentes/candidato_005.png"),
-    logo: img("logos_partidos_politicos/CLARO QUE SE PUEDE.png"), // Ajustar nombre si no existe
-    color: "#008000", // Verde
+    url: img("imagenes_presidentes/2023/YAKUPEREZ_2023.png"),
+    logo: img("logos_partidos_politicos/2023/CLARO_QUE_SE_PUEDE_2023.png"),
+    color: "#35A0AC",
     nombrePartido: "UP/PSE/DSI",
     json: "UP/PSE/DSI",
   },
