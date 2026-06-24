@@ -33,7 +33,8 @@ export const dessertsData = [
     p4: "#fcdabc",
     p5: "#B1E1E7",
     p6: "#F4C2D7", // Tono pastel RETO
-    p7: "#B0C4DE"
+    p7: "#B0C4DE",
+    p8: "#ccffeb",
   },
   {
     porcentaje: "Nivel Medio",
