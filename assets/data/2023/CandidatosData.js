@@ -29,7 +29,7 @@ export const dessertsData = [
     porcentaje: "Nivel Bajo",
     p1: "#a4e0ee",
     p2: "#D8B4FE",
-    p3: "#cbaada",
+    p3: "#FDFD96",
     p4: "#FFF0E6",
     p5: "#B1E1E7",
     p6: "#F4C2D7", // Tono pastel RETO
@@ -40,7 +40,7 @@ export const dessertsData = [
     porcentaje: "Nivel Medio",
     p1: "#45b5ce",
     p2: "#A855F7",
-    p3: "#A569BD",
+    p3: "#CCCC00",
     p4: "#FF9457",
     p5: "#64C3CE",
     p6: "#D81B60", // Tono medio RETO
@@ -51,7 +51,7 @@ export const dessertsData = [
     porcentaje: "Nivel Alto",
     p1: "#12a2c2",
     p2: "#8A2BE2",
-    p3: "#7D3C98",
+    p3: "#FFFF00",
     p4: "#FF5500",
     p5: "#35A0AC",
     p6: "#E0008A", // Tono oscuro/exacto RETO
@@ -86,8 +86,8 @@ export const candidatoData = [
   {
     partido: 3,
     nombre: "JAN TOPIC",
-    url: img("imagenes_presidentes/candidato_003.png"),
-    logo: img("logos_partidos_politicos/PSC.png"),
+    url: img("imagenes_presidentes/2023/JAN_TOPIC_2023.png"),
+    logo: img("logos_partidos_politicos/2023/PSC_2023.png"),
     color: "#FFFF00", // Amarillo PSC (o rojo secundario)
     nombrePartido: "PSC/PSP/CD",
     json: "PSC/PSP/CD",
