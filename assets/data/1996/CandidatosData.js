@@ -152,14 +152,14 @@ export const candidatoData = [
     nombrePartido: 'MUPP-NP-18',
     json: '6'
   },
-  {
+{
     partido: 7,
     nombre: 'GALLARDO JOSE',
-    url: img('candidatos/7.png'),
-    logo: img('partidos/PSC.png'),
+    url: img("imagenes_presidentes/1996/gallardo_1996.png"), 
+    logo: img("logos_partidos_politicos/1996/uci_1996.png"), 
     color: '#E74C3C',
-    nombrePartido: 'UCI-19',
-    json: '7'
+    nombrePartido: "COMPLETAR", 
+    json: "COMPLETAR" 
   },
   {
     partido: 8,
