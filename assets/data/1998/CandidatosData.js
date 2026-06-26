@@ -25,33 +25,35 @@ const img = (path) => {
 // 1. LEYENDA DE COLORES
 // ============================================================
 
+
 export const dessertsData = [
-
-
   { porcentaje: "Nivel Bajo",
-    p4: "#f5c89a",
     p1: "#ffb3b3", // Rojo claro para zonas con pocos votos
     p2: "#FFB3B3", // Rojo muy claro
-    p3: "#F8B3E1"
+    p3: "#F8B3E1",
+    p4: "#f5c89a",
+    p5: "#ccffdd" // Verde Democracia Popular claro
+
   },
   { porcentaje: "Nivel Medio",
-    p4: "#f5900a",
     p1: "#ff4d4d", // Rojo de intensidad media
     p2: "#FF4D4D", // Rojo de intensidad media
-    p3: "#F06BC0"
+    p3: "#F06BC0",
+    p4: "#f5900a",
+    p5: "#66ff99" // Verde intermedio
   },
   { porcentaje: "Nivel Alto",
-    p4: "#c46a00",
     p1: "#ff0000", // Rojo oscuro/puro oficial del PRE
     p2: "#CC0000", // Rojo oscuro (Color principal del MPD)
-    p3: "#E00B97"
+    p3: "#E00B97",
+    p4: "#c46a00",
+    p5: "#00994c" // Verde institucional oficial fuerte
   }
 ];
 
 // ============================================================
 // 2. DICCIONARIO DE CANDIDATOS
 // ============================================================
-
 export const candidatoData = [
   {    
     partido: 1,
@@ -88,5 +90,24 @@ export const candidatoData = [
     color: "#c46a00",
     nombrePartido: "COMPLETAR",//este candidato pertenece al partido ID
     json: "COMPLETAR"
+  },
+    {
+    partido: 5,
+    nombre: "JAMIL MAHUAD WITT", // Nombre real del candidato
+    url: img("imagenes_presidentes/1998/mahuad.png"),
+    logo: img("logos_partidos_politicos/1998/democracia_popular_1998.png"),
+    color: "#00994c", // Color principal investigado (Verde DP)
+    nombrePartido: "DP", // este candidato pertenece al partido Democracia Popular (DP)
+    json: "DP",
+  },
+  {
+    partido: 99,
+    nombre: "EMPATE",
+    url: "",
+    logo: "",
+    color: "#808080",
+    nombrePartido: "EMPATE",
+    json: "EMPATE"
   }
+
 ];
